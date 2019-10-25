@@ -1,0 +1,76 @@
+.row.content {
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav-main{
+      width: 20%;
+      background-color: #e2dfdf;
+      overflow: auto;
+      height: 100%;
+      padding-left: 1%;
+      padding-right: 1%;
+      display: block;
+      float: left;
+  }
+
+  .nav-content{
+      margin: 0px !important;
+      padding: 0px !important;
+  }
+
+  .main-content{
+      display:block; 
+      float: left;
+      padding: 2%;
+      /* background-color: ; */
+      width: 80%;
+      height: 100%;
+      overflow: auto;
+
+  }
+
+  .main-content h1{
+      color: #666;
+  }
+
+  /* Set gray background color and 100% height */
+
+  .sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .no-margin{
+      margin: 0px;
+  }
+
+  .list {
+    height: 50px;
+    border:  1px #666;
+    font-size: 20px;
+  }
+
+
+  .list button{
+    width: 60px;
+  }
+
+  .list p {
+      display: inline-block;
+      height: 10%;
+  }
+
+  /* On small screens, set height to 'auto' for the grid */
+
+  @media screen and (max-width: 767px) {
+    .row.content {
+      height: auto;
+    }
+
+    .main-content{
+        width: 100%;
+    }
+  }

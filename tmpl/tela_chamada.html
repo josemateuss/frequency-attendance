@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Sistema de Frequência Universitário</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../public/css/myCss.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse visible-xs">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a type="a" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a href="lista_chamada.html" class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Dashboard</a></li>
+          <li class="active"><a href="lista_chamada.html">Lista de chamada</a></li>
+          <li><a href="cadastro_digital.html">Cadastro digital</a></li>
+          <li><a href="#">Geo</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid d-flex flex-column" style="height:100vh; padding:0px;">
+
+    <div class="nav-main hidden-xs">
+      <div class="nav-content">
+        <h2>Logo</h2>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="index.html">Dashboard</a></li>
+          <li class="active"><a href="lista_chamada.html">Lista de chamada</a></li>
+          <li><a href="cadastro_digital.html">Cadastro digital</a></li>
+          <li><a href="#section3">Geo</a></li>
+        </ul><br>
+      </div>
+
+    </div>
+
+    <div class="main-content">
+      <h1 class="h1">Tela de chamada</h1>
+      <div class="row no-margin">
+
+        <div class="col-sm-9" style="margin-top: 20px">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Presente</th>
+                <th>Faltou</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td><button class="btn btn-success">Presente</button></td>
+                <td><button class="btn btn-danger">Faltou</button></td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td><button class="btn btn-success">Presente</button></td>
+                <td><button class="btn btn-danger">Faltou</button></td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td><button class="btn btn-success">Presente</button></td>
+                <td><button class="btn btn-danger">Faltou</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -26,9 +26,9 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Dashboard</a></li>
-          <li><a href="#">Lista de chamada</a></li>
-          <li><a href="cadastro_digital.html">Cadastro digital</a></li>
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="lista_chamada.html">Lista de chamada</a></li>
+          <li class="active"><a href="cadastro_digital.html">Cadastro digital</a></li>
           <li><a href="#">Geo</a></li>
         </ul>
       </div>
@@ -41,9 +41,9 @@
       <div class="nav-content">
         <h2>Logo</h2>
         <ul class="nav nav-pills nav-stacked">
-          <li class="active"><a href="index.html">Dashboard</a></li>
+          <li><a href="index.html">Dashboard</a></li>
           <li><a href="lista_chamada.html">Lista de chamada</a></li>
-          <li><a href="cadastro_digital.html">Cadastro digital</a></li>
+          <li class="active"><a href="cadastro_digital.html">Cadastro digital</a></li>
           <li><a href="#section3">Geo</a></li>
         </ul><br>
       </div>
@@ -51,63 +51,41 @@
     </div>
 
     <div class="main-content">
-      <div class="col-sm-12">
-        <div class="well">
-          <h4>Dashboard</h4>
-          <p>Some text..</p>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="well">
-              <h4>Users</h4>
-              <p>1 Million</p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="well">
-              <h4>Pages</h4>
-              <p>100 Million</p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="well">
-              <h4>Sessions</h4>
-              <p>10 Million</p>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="well">
-              <h4>Bounce</h4>
-              <p>30%</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="well">
-              <p>Text</p>
-              <p>Text</p>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="well">
-              <p>Text</p>
-              <p>Text</p>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="well">
-              <p>Text</p>
-              <p>Text</p>
-              <p>Text</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h1 class="h1">Cadastro de Digital</h1>
 
+      <form action="">
+        <div class="row no-margin">
+          <div class="col-sm-9">
+            <div class="form-group">
+              <label for="">Aluno</label>
+              <input class="form-control form-control-lg" type="text" placeholder="Digite o nome do aluno">
+            </div>
+          </div>
+
+          <div class="col-sm-9">
+            <div class="form-group">
+              <label for="class-input">Disciplina</label>
+              <select class="form-control" id="class-input">
+                <option>Classe 1</option>
+                <option>Classe 2</option>
+                <option>Classe 3</option>
+                <option>Classe 4</option>
+                <option>Classe 5</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-sm-9">
+            <div class="form-group">
+              <label for="">Digital</label>
+              <input disabled class="form-control form-control-lg" type="text" placeholder="Digital">
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
+
+  </div>
 </body>
 
 </html>
